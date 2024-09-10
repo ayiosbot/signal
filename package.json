@@ -1,6 +1,6 @@
 {
   "name": "@ayios/signal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js implementation of the Roblox signal class",
   "main": "out/src/index.js",
   "keywords": [],

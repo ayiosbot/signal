@@ -28,6 +28,18 @@ export default class Signal<T = void> {
     constructor(name?: string) {
         this.name = name;
     }
+    async await() {
+        return new Promise(resolve => {
+            this.once(data => resolve(data));
+        });
+    }
+    once(callback: (data: T) => void) {
+        const symbol = Symbol(this.name);
+        this._listeners.set(symbol, (_data: T) => {
+            this._listeners.delete(symbol);
+            callback(_data);
+        });
+    }
     connect(callback: (data: T) => void): SignalConnection<T> {
         const symbol = Symbol(this.name);
         this._listeners.set(symbol, callback);
