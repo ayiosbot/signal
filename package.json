@@ -1,0 +1,14 @@
+{
+  "name": "@ayios/signal",
+  "version": "0.0.1",
+  "description": "Node.js implementation of the Roblox signal class",
+  "main": "out/src/index.js",
+  "keywords": [],
+  "author": "Ayios (ayios.xyz)",
+  "license": "MULTI",
+  "repository": "https://github.com/ayiosbot/signal",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "typescript": "^4.9.4"
+  }
+}
