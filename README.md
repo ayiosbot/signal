@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>@ayios/ipc<h1>
-    <h3><b>Ayios IPC System</b></h3>
+    <h1>@ayios/signal<h1>
+    <h3><b>Ayios Signal implementation similar to Roblox</b></h3>
     <h6>This is primarily used internally by Ayios. It is free for anyone to use.</h6>
 </div>
 
