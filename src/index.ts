@@ -16,8 +16,6 @@ class SignalConnection<T> {
     }
     get isConnected() {
         return this._listeners.has(this._symbol);
-        // return this
-        // return false;
     }
     disconnect() {
         this._listeners.delete(this._symbol);
